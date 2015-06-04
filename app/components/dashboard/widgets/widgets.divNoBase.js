@@ -1,8 +1,8 @@
-﻿(function () {
+(function () {
     'use strict';
 
     angular
-        .module('ex-app')
+        .module('ex-app-dashboard')
         .directive('exDivNoBase', divNoBase);
 
     function divNoBase() {

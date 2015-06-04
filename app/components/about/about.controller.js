@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('ex-app')
+        .module('ex-app-about')
         .controller('aboutController', ctrl);
 
     function ctrl($scope, $state, $window) {

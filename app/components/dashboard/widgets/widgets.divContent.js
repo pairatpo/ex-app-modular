@@ -1,12 +1,12 @@
-﻿(function () {
+(function () {
     angular
-        .module('ex-app')
+        .module('ex-app-dashboard')
         .directive('exDivContent', divContent);
 
     function divContent() {
 
         var drtvObj = function () { };
-        drtvObj.prototype = new baseDirective();
+        //drtvObj.prototype = new baseDirective();
 
         drtvObj.prototype.restrict = 'EA';
         drtvObj.prototype.replace = true;

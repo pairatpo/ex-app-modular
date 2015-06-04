@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="ex-app">
 <head>
@@ -51,21 +51,25 @@
     <script src="app/app.controller.js"></script>
 
     <!-- # Shared # -->
-    <script src="app/shared/lodash/lodashWrapper.js"></script>
-    <script src="app/shared/moment/momentWrapper.js"></script>
+    <!-- core -->
+    <script src="app/shared/core/core.module.js"></script>
+    <script src="app/shared/core/lodash/lodashWrapper.js"></script>
+    <script src="app/shared/core/moment/momentWrapper.js"></script>
 
     <!-- # base -->
-    <script src="app/components/base/base.controller.js"></script>
-    <script src="app/components/base/base.directive.js"></script>
+    <!--<script src="app/components/base/base.controller.js"></script>
+    <script src="app/components/base/base.directive.js"></script>-->
 
     <!-- # components/features -->
 
+    <script src="app/components/dashboard/dashboard.module.js"></script>
     <script src="app/components/dashboard/dashboard.controller.js"></script>
     <script src="app/components/dashboard/dashboard.service.js"></script>
     <script src="app/components/dashboard/widgets/widgets.divContent.js"></script>
     <script src="app/components/dashboard/widgets/widgets.divContent2.js"></script>
     <script src="app/components/dashboard/widgets/widgets.divNoBase.js"></script>
 
+    <script src="app/components/about/about.module.js"></script>
     <script src="app/components/about/about.controller.js"></script>
     <!-- endbuild -->
 </body>

@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('ex-app')
+        .module('ex-app-dashboard')
         .controller('dashboardController', ctrl);
 
     function ctrl($scope, $state, $window, dashboardService, _) {
