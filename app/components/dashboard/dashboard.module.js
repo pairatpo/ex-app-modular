@@ -7,7 +7,8 @@
             //'ui.router',
             //'angular-cache',
             //'ngAnimate',
-            'highcharts-ng'
+            'highcharts-ng',
+            'ex-app-core'
         ]);
 
 })();
